@@ -19,22 +19,6 @@ const Projects = ({ darkMode }) => {
          image: herbalImg,
       },
       {
-         title: "Stopwatch",
-         description: "A sleek stopwatch app with start, pause, reset, and lap tracking functionalities built with React.",
-         techStack: "React, JavaScript, CSS",
-         github: 'https://github.com/Abletetor/PRODIGY_WD_02',
-         demo: 'https://prodigy-wd-02-stopwatch-sable.vercel.app/',
-         image: stopwatchImg,
-      },
-      {
-         title: 'Tic-Tac-Toe',
-         description: 'A sleek, interactive Tic-Tac-Toe game built with ReactJS. Play against a human or AI opponent with dark mode support and responsive design.',
-         techStack: "ReactJS, CSS, JavaScript",
-         github: 'https://github.com/Abletetor/PRODIGY_WD_03',
-         demo: 'https://prodigy-wd-03-tic-tac-toe-rose.vercel.app/',
-         image: tictactoeImg,
-      },
-      {
          title: 'CryptoZ',
          description: 'CryptoZ is an intuitive platform for tracking real-time cryptocurrency prices, market trends, and news. It offers insights into the crypto market with a sleek interface and user-friendly tools to make informed decisions.',
          techStack: "HTML, CSS, JavaScript",
@@ -51,12 +35,28 @@ const Projects = ({ darkMode }) => {
          image: surveytrackerImg,
       },
       {
+         title: "Stopwatch",
+         description: "A sleek stopwatch app with start, pause, reset, and lap tracking functionalities built with React.",
+         techStack: "React, JavaScript, CSS",
+         github: 'https://github.com/Abletetor/PRODIGY_WD_02',
+         demo: 'https://prodigy-wd-02-stopwatch-sable.vercel.app/',
+         image: stopwatchImg,
+      },
+      {
          title: 'WeatherApp',
          description: 'A responsive Weather App that fetches real-time weather data using the OpenWeather API, featuring dark mode, real-time updates for humidity, wind speed, and more. The app has a sleek, modern UI optimized for all devices.',
          techStack: 'ReactJS, CSS, Node.js, Express',
          github: 'https://github.com/Abletetor/PRODIGY_WD_05',
          demo: 'https://prodigy-wd-05-coral.vercel.app/',
          image: weatherAppImg,
+      },
+      {
+         title: 'Tic-Tac-Toe',
+         description: 'A sleek, interactive Tic-Tac-Toe game built with ReactJS. Play against a human or AI opponent with dark mode support and responsive design.',
+         techStack: "ReactJS, CSS, JavaScript",
+         github: 'https://github.com/Abletetor/PRODIGY_WD_03',
+         demo: 'https://prodigy-wd-03-tic-tac-toe-rose.vercel.app/',
+         image: tictactoeImg,
       },
    ];
 

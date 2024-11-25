@@ -2,9 +2,9 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 100vh;
+   /* height: 100vh; */
    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
-   padding: 0 20px;
+   padding: 20px;
    transition: background 0.3s ease, color 0.3s ease;
 }
 
@@ -15,6 +15,7 @@
 
 .home-content {
    text-align: center;
+   margin-top: 3rem;
 }
 
 .profile-image {
