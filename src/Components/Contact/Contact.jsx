@@ -1,31 +1,43 @@
 import { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Contact.css';
 
 const Contact = () => {
-   const [formData, setFormData] = useState({
-      name: '',
-      email: '',
-      message: ''
-   });
+   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
+   // Handling form elements change
    const handleChange = (e) => {
       const { name, value } = e.target;
-      setFormData((prevData) => ({
-         ...prevData,
-         [name]: value
-      }));
+      setFormData({ ...formData, [name]: value });
    };
 
-   const handleSubmit = (e) => {
+   // Handling form submission
+   const handleSubmit = async (e) => {
       e.preventDefault();
-      console.log('Form submitted:', formData);
-      // Reset form
-      setFormData({
-         name: '',
-         email: '',
-         message: ''
-      });
-      // Handle form submission logic, like sending email
+
+      const formData = new FormData(e.target);
+      formData.append('access_key', import.meta.env.VITE_FORM_ID);
+
+      try {
+         const response = await fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            body: formData,
+         });
+
+         const data = await response.json();
+
+         if (data.success) {
+            toast.success('Mail sent successfully!');
+            e.target.reset();
+            setFormData({ name: '', email: '', message: '' });
+         } else {
+            toast.error(data.message || 'Failed to send the message.');
+         }
+      } catch (error) {
+         console.error('Error:', error);
+         toast.error('An error occurred. Please try again.');
+      }
    };
 
    return (
@@ -74,6 +86,7 @@ const Contact = () => {
             </div>
             <button type="submit" className="submit-btn">Send Message</button>
          </form>
+         <ToastContainer position="top-right" autoClose={ 3000 } style={ { zIndex: 100001 } } />
       </section>
    );
 };

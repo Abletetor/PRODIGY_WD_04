@@ -26,7 +26,7 @@
 .project-card {
    background-color: #fff;
    border-radius: 8px;
-   padding: 20px;
+   padding-bottom: 20px;
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -40,16 +40,25 @@
    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+.project-card img {
+   width: 100%;
+   height: auto;
+   object-fit: contain;
+   margin-bottom: 12px;
+}
+
 .project-card h3 {
    margin: 0 0 10px;
    font-size: 1.8rem;
    color: inherit;
+   padding: 0 20px 0 20px;
 }
 
 .project-card p {
    margin: 10px 0;
    font-size: 1.1rem;
    color: inherit;
+   padding: 0 20px 0 20px;
 }
 
 .project-links a {
@@ -59,6 +68,7 @@
    font-size: 1.2rem;
    text-decoration: none;
    transition: color 0.3s ease;
+   padding: 0 20px 0 20px;
 }
 
 .project-links a:hover {

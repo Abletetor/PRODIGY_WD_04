@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+/* eslint-disable react/prop-types */
 import './Blogs.css';
 import { FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
@@ -46,11 +46,6 @@ const Blog = ({ darkMode }) => {
          </div>
       </section>
    );
-};
-
-// Prop Validation
-Blog.propTypes = {
-   darkMode: PropTypes.bool.isRequired,
 };
 
 export default Blog;

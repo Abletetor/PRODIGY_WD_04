@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+/* eslint-disable react/prop-types */
 import './Skills.css';
 import { FaReact, FaNodeJs, FaCss3Alt, FaHtml5, FaJsSquare, FaGitAlt } from 'react-icons/fa';
 import { SiMongodb } from 'react-icons/si';
@@ -39,11 +39,6 @@ const Skills = ({ darkMode }) => {
          </div>
       </section>
    );
-};
-
-//Prop validation
-Skills.propTypes = {
-   darkMode: PropTypes.bool.isRequired,
 };
 
 export default Skills;
