@@ -42,11 +42,15 @@
    color: #ff6b6b;
    font-size: 1rem;
    text-decoration: none;
-   margin-bottom: 20px;
+   margin-bottom: 2rem;
 }
 
 .blog-card:hover {
    transform: translateY(-10px);
+}
+
+.blog-icons {
+   padding-top: 1rem;
 }
 
 .blog-icons a {
