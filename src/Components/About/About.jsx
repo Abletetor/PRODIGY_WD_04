@@ -12,7 +12,7 @@ const About = () => {
                   My experience includes working on both frontend and backend, ensuring responsive design and clean code.
                </p>
                <p>
-                  Graduated with a diploma in Computer Science and earned a Full Stack Web Development certification from The Programmers&apos; University, gaining practical experience in HTML, CSS, JavaScript, ReactJS, Node.js, and MongoDB during an internship at Prodigy InfoTech.
+                  Graduated with a Higher National Diploma in Computer Science and earned a Full Stack Web Development certification from The Programmers&apos; University. Gain practical experience in HTML, CSS, JavaScript, ReactJS, Node.js, and MongoDB during an internship at Prodigy InfoTech and Tascul.
                </p>
             </div>
             <div className="about-image">
