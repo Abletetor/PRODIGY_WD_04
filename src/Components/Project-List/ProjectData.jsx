@@ -4,6 +4,7 @@ import authImg from '../../assets/auth.png';
 import cryptozImg from '../../assets/cryptoz.png';
 import surveytrackerImg from '../../assets/surveytracker.png';
 import tasculImg from '../../assets/tascul.png';
+import youtubeImg from '../../assets/youtube-clone.png';
 
 const projectData = [
    {
@@ -53,6 +54,14 @@ const projectData = [
       github: 'https://github.com/Abletetor/auth-frontend',
       demo: 'https://myauth-system.netlify.app/',
       image: authImg,
+   },
+   {
+      title: "YouTube Clone",
+      description: "A feature-rich YouTube clone built with React.js. This project replicates key YouTube functionalities, including video playback, a sidebar menu, a recommended videos section, and dynamic data fetching using APIs.",
+      techStack: "ReactJS, CSS, Git, API",
+      github: "https://github.com/Abletetor/youtube-clone",
+      demo: 'https://youtube-clonie.netlify.app/',
+      image: youtubeImg,
    },
 ];
 export default projectData;
