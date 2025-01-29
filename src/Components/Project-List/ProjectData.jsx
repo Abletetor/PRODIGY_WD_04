@@ -5,6 +5,8 @@ import cryptozImg from '../../assets/cryptoz.png';
 import surveytrackerImg from '../../assets/surveytracker.png';
 import tasculImg from '../../assets/tascul.png';
 import youtubeImg from '../../assets/youtube-clone.png';
+import spotifyImg from '../../assets/spotify-clone.png';
+import schoolImg from '../../assets/school.png';
 
 const projectData = [
    {
@@ -63,6 +65,22 @@ const projectData = [
       demo: 'https://youtube-clonie.netlify.app/',
       image: youtubeImg,
    },
+   {
+      title: "Spotify Clone",
+      description: "A Spotify Clone featured a sleek, responsive UI for seamless music streaming. It includes a dynamic playlist, real-time progress tracking, and smooth transitions between tracks.",
+      techStack: "ReactJS, Tailwind CSS, Git",
+      github: "https://github.com/Abletetor/Spotify-Clone",
+      demo: 'https://spotify-clonie.netlify.app',
+      image: spotifyImg,
+   },
+   {
+      title: "Rockville Montessori School",
+      description: "A modern, interactive, and responsive web platform designed to showcase the school’s programs, mission, and facilities featuring dynamic pages, secure access, and visually engaging content.",
+      techStack: "ReactJS, CSS, Git",
+      github: "https://github.com/Abletetor/Rockville-Montessori-School-Site",
+      demo: 'https://rockville-montessori.netlify.app',
+      image: schoolImg,
+   }
 ];
 export default projectData;
 
