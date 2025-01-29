@@ -4,7 +4,7 @@ import { FaTrophy, FaBriefcase, FaMedal } from 'react-icons/fa';
 const Accomplishments = () => {
    return (
       <section id="accomplishments" className="accomplishments-section">
-         <h2 className="section-title">Accomplishments</h2>
+         <h2 className="section-title">Accomplishment</h2>
          <div className="accomplishments-grid">
             <div className="accomplishment-card">
                <FaTrophy className="icon" />

@@ -51,6 +51,10 @@
       grid-template-columns: 1fr;
    }
 
+   .accomplishment-card p {
+      text-align: left;
+   }
+
    .icon {
       font-size: 2.5rem;
    }
@@ -61,12 +65,19 @@
    background-color: #333;
 }
 
-.dark .section-title,
-.dark .accomplishment-card h3,
-.dark .accomplishment-card p {
+.dark .accomplishment-card h3 {
    color: #fff;
+}
+
+.dark .section-title {
+   color: #666;
+}
+
+.dark .accomplishment-card p {
+   color: #ccc;
 }
 
 .dark .accomplishment-card {
    background-color: #444;
+   color: #ddd;
 }
