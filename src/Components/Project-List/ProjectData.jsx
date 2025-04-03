@@ -1,5 +1,5 @@
 import herbalImg from '../../assets/hebal.png';
-import quoteImg from '../../assets/quote.png';
+import appointmentImg from '../../assets/appointment.png';
 import authImg from '../../assets/auth.png';
 import cryptozImg from '../../assets/cryptoz.png';
 import surveytrackerImg from '../../assets/surveytracker.png';
@@ -34,12 +34,12 @@ const projectData = [
       image: surveytrackerImg,
    },
    {
-      title: "Quote Generator",
-      description: "A simple, interactive web app that provides users with random motivational quotes at the click of a button. Built with modern web technologies, it features a sleek design and smooth functionality to inspire and uplift.",
-      techStack: "HTML, JavaScript, CSS, Git",
-      github: 'https://github.com/Abletetor/quote-generator',
-      demo: 'https://simplex-quotes-generator.netlify.app/',
-      image: quoteImg,
+      title: "Doctor Appointment Booking",
+      description: "An interactive app with secure authentication, Stripe payments, and a responsive UI. Users can book appointments, doctors manage schedules, and admins oversee operations. Future updates: Doctor ratings & patient complaints (admin-only).",
+      techStack: "ReactJS, Tailwind CSS, NodeJS, MongoDB",
+      github: 'https://github.com/Abletetor/Loveyourworld-Frontend',
+      demo: 'https://loveyourworld.netlify.app',
+      image: appointmentImg,
    },
    {
       title: 'Tascul Redesign',
